@@ -1,0 +1,154 @@
+@font-face {
+	font-family:"PT Sans";
+	src: url(../fonts/2221.ttf);
+}
+body{
+	height: 100%;
+	background-color: #f6f6f6;
+	font-family:"PT Sans";
+	margin: 0;
+}
+
+.main-screen{
+	height: 512px; ;
+	background-image: url(../includes/img/ff2.png) !important;
+	}
+.contentwrapper{
+	margin-top: -150px !important;
+	position: relative;
+	margin-bottom: 50px;
+}
+.products .head{
+	position: relative;
+	right: 0; top:0; left:0px;
+	height: 65px;
+	border-bottom:2px solid rgb(206,206,206);
+	
+}
+.products .head p{
+	font: bold 130% "PTSans"  ;
+    margin-left: 3.1%;
+    height: inherit;
+    line-height: 65px;
+}
+
+.products .row{
+	font: bold 1.55vmax "PTSans"  ;
+	position: relative;
+	right: 0;left: 0;
+	width: inherit;
+	border-bottom:  1px solid rgb(206,206,206) ;
+}
+.products > .row:nth-child(2) {
+	height: 40px;
+}
+.products .row span{
+    margin-left: 1.9%;
+}
+
+.products .row > .row{
+	width: 100% ;
+	height: 180px;
+	font: bold 1.3vmax "PTSans"  ;
+
+}
+.products > .row:nth-child(2)  .col:nth-child(1), .col-2:nth-child(3) , .col-3:nth-child(2) {
+	display: flex;
+	 align-items: center;
+}
+.products > .row:nth-child(2)  .col:nth-child(1){
+
+}
+.products .row .col,.col-3{
+	border-right: 1px solid rgb(206,206,206);
+}
+.products .row .col,.col-2,.col-3{
+	position: relative;
+}
+
+
+.products .row > .row .col-3,.col-2{
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+
+}
+.products .row > .row .col-2 button{
+	background: url(../includes/img/delete_product_button.png) no-repeat ;
+	background-size: 100%;
+    border:none;
+	width: 39px;
+	height: 39px;
+	
+}
+.products .row > .row .col-2 button:focus{
+outline:none;
+}
+.products .row > .row .col-2 button:hover{
+cursor: pointer;
+}
+.row > .row .product_image{
+	position: absolute;
+	width: 25.8%;
+	height: 70.5%;
+	top:14%;
+	left: 14.6%;
+	background-size: 100%;
+	border: 1px solid rgb(206,206,206);
+}
+.row > .row .product_image:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 3px grey;
+	transition: all 0.3s ease 0s;
+}
+.row > .row .product_name{
+	position: absolute;
+	top:29%;
+	left: 46%;
+	font: 500 105% "PT Sans";
+	color:#870707;
+}
+.row > .row .product_size{
+	font-size: 105% ;
+	font-weight:500; 
+position: absolute;
+	top:42.8%;
+	left: 46%;
+}
+.products form > .row:last-child {
+	height: 89px;
+	border:none;
+}
+
+.products form > .row:last-child .col-5,.col-7{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+}
+.products form > .row:last-child .col-5{
+		align-items: flex-start;
+		padding-left: 0;
+}
+.products form > .row:last-child button {
+width:75%;
+height:57%;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 0px 5px grey;
+	font: 300 100% "PT Sans";
+	background-color:rgb(232,6,6);
+	color:white;
+	border:none;
+	position: absolute;
+
+}
+.products form > .row:last-child .col-7 p:first-child{
+font: 300 100% "PT Sans";
+margin:0;
+}
+.products form > .row:last-child .col-7 p:last-child{
+font-size: 105%;
+margin:0;
+}

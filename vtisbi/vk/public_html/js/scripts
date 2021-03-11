@@ -1,0 +1,7 @@
+let active_page = document.querySelector('.pages');
+
+
+active_page.onclick = function(){
+	active_page.style.background =red;
+	console.log('erer');
+}

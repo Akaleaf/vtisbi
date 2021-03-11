@@ -1,0 +1,349 @@
+@font-face {
+	font-family:"PT Sans";
+	src: url(../fonts/2221.ttf);
+}
+body{
+
+}
+.main-screen{
+	height: 512px ;
+	background-image: url(../includes/img/ff2.png) !important;
+	}
+.contentwrapper{
+	margin-top: -150px !important;
+	margin-bottom: 50px;
+}
+.contentwrapper .regwrapper{
+	position: relative;
+    height: 530px;
+    flex: 1 1 715px;
+	right: 0; top:0; 
+	border-bottom:2px solid rgb(206,206,206);
+
+}
+.regwrapper .head{
+	position: absolute;
+	right: 0; top:0; left:0px;
+	height: 65px;
+	border-bottom:2px solid rgb(206,206,206);
+	
+}
+.regwrapper .head p{
+	font: 600 148%  "PTSans"  ;
+	margin: 3% 30px;
+}
+.auth-block{
+	width: 50%;
+	height: 465px;
+	position: absolute;
+	top:65px;left:0;bottom:0;
+	border-right:2px solid rgb(206,206,206);
+	padding: 23px 70px 220px 70px;
+
+}
+
+.auth-block .form-group p{
+     font: bold 125%  "PTSans"; 
+	 padding-bottom: 0px;
+
+}
+.auth-block .form-group input{
+	margin-bottom: 15px;
+	height: 25px;
+	border:2px solid rgb(206,206,206);
+	border-radius: 0px;
+}
+.auth-block .form-group button{
+	padding: 5px 12px;
+	color:#fff;
+	background: rgb(232,6,6);
+	border:none;
+	box-shadow: 0px 0px 5px grey;
+	position: absolute;
+	right: 70px;
+
+}
+.reg-block{
+	width: 50%;
+	height: 395px;
+	position: absolute;
+	top:65px;right:0;bottom:0;
+	padding: 23px 70px 10px 70px;
+	
+}
+
+.reg-block .form-group p{
+	font: bold 125% "PTSans"  ;
+	position: absolute;
+	padding-top: 10px;
+    margin-top:-50px;
+}
+.reg-block .form-group input{
+	margin-bottom: 15px;
+	height: 25px;
+	border:2px solid rgb(206,206,206);
+	border-radius: 0px;
+}
+.reg-block .form-group :nth-child(2) {
+	margin-top: 40px;
+}
+.reg-block .form-group button{
+	padding: 5px 12px;
+	color:#fff;
+	background: rgb(232,6,6);
+	border:none;
+	box-shadow: 0px 0px 5px grey;
+	position: absolute;
+	right: 70px;
+}
+.reg-block .form-group span{
+	color:red;
+ position: absolute;
+ font-size: 25px;
+ 
+}
+
+.reg-block .form-group span:nth-child(3) {
+ right:55px;
+ margin-top:-39px;
+}
+.reg-block .form-group span:nth-child(5) {
+ right:55px;
+  margin-top:-39px;
+}
+.reg-block .form-group span:nth-child(7) {
+ right:55px;
+ margin-top:-39px;
+}
+.reg-block .form-group span:nth-child(9) {
+ right:55px;
+  margin-top:-39px;
+}
+.reg-block .form-group span:nth-child(11) {
+ right:55px;
+  margin-top:-39px;
+}
+.reg-block .form-group span:nth-child(13) {
+ right:55px;
+  margin-top:-39px;
+}
+.reg-block .form-group span:nth-child(15) {
+ right:55px;
+  margin-top:-39px;
+}
+ .reg-block .message .success_message{
+  color:green;
+  border:2px solid green;
+  padding:10px 0 10px 25%;
+    }
+.reg-block .message .error_message{
+  color:red;
+  border:2px solid red;
+  padding:10px 0 10px 25%;
+  }
+   .auth-block .message .success_message{
+  color:green;
+  border:2px solid green;
+  padding:10px 0 10px 25%;
+  font-size: 1
+    }
+ .auth-block .message .error_message{
+  color:red;
+  border:2px solid red;
+  padding:10px 0 10px 25%;
+  }
+
+
+  /*     PROFILE       */
+  .contentwrapper .profile{
+
+    /* max-width: 715px; */
+    right: 0;
+    top: 0;
+    position: relative;
+    height: inherit;
+    flex: 1 1 715px;
+   
+
+}
+.profile .head{
+	position: absolute;
+	right: 0; top:0; left:0px;
+	height: 65px;
+	border-bottom:2px solid rgb(206,206,206);
+	
+}
+.profile .head p{
+	font: bold 130% "PTSans"  ;
+	margin: 3% 3.1%;
+}
+
+.profile .profile_data{
+/*	width: 74.4%; right: 245px;*/
+width: 100%;
+   height: calc(45% - 65px);
+    position: absolute;
+    top: 65px;
+    border-bottom: 2px solid rgb(206,206,206);
+}
+.profile .profile_data table input{
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	width: 100%;	
+}
+.profile .profile_data input.Address {
+	background-color: transparent;
+	box-shadow: none;
+	width: 229%;
+}
+
+.profile_data button{
+	position: absolute;
+	right: 5.6%;
+	bottom: 12.5%;
+	padding: 5px 16px;
+	color:#fff;
+	background: rgb(232,6,6);
+	border:none;
+	box-shadow: 0px 0px 5px grey;
+}
+
+
+
+.profile_data input{
+	
+	display:inline-block;
+}
+.profile_data .form-group{
+	position: absolute;
+	left:4.4%;top:8%;
+
+}
+
+.profile_data .row .col-2,.col-3,.col-1{
+	font:bold 100% "PT SANS";
+	padding:0 0 0 5%;
+	line-height: 39px;
+}
+.profile_data .row .col-4{
+	padding-left: 0px;
+}
+.profile_data .row:nth-child(1) .col-2:nth-child(1) {
+max-width: 13%;
+}
+.profile_data .row:nth-child(1) .col-1:nth-child(3) {
+padding: 0;
+max-width: 3.3%;
+}
+.profile_data .row:nth-child(2) .col-2:nth-child(1) {
+max-width: 9.5%;
+}
+.profile_data .row:nth-child(3) .col:nth-child(2) {
+padding-left:0;
+}
+.profile_data .row:nth-child(3) .col-3:nth-child(1) {
+max-width: 22.3%;
+}
+.profile_data .row:nth-child(4) .col-2:nth-child(1) {
+max-width: 10%;
+}
+.profile_data .row:nth-child(4) .col:nth-child(2) {
+max-width: 41.6% !important;
+
+}
+.profile_data .row {
+	margin: 12px 0 0 0;
+	flex-wrap: nowrap;
+
+}
+.profile_data .row input {
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	color:black
+
+}
+.profile_data .row input:hover {
+	cursor: pointer;
+}
+.profile_data .row input:focus {
+	box-shadow: none;
+}
+.profile .seeAlso{
+	width: 100%;
+    position: absolute;
+    height: 55%;
+    bottom: 0; 
+}
+.profile .seeAlso .row{
+	position: absolute;
+	bottom: 0.73%;
+	width: 100%;
+	margin:0px;
+    
+}
+.profile .seeAlso .row .col-4{
+	border:1px rgb(206,206,206) solid;
+	height:312px;
+	padding:0;
+}
+.profile .seeAlso .row .col-4 a {
+     width: inherit;
+    height: inherit;
+    position: absolute;
+  left: 0;
+    top: 0;
+  text-align: center;
+  line-height: 300px;
+text-decoration: none;
+}
+
+.profile .seeAlso .row .col-4:hover{
+	border:2px rgb(192,10,29) solid;
+
+}
+.profile .seeAlso .row .col-4  .product_image{
+	position: absolute ;
+	top:6%; 
+	left:9.2%; 
+  height: 73%;
+width: 82.5%;
+border:1px solid rgb(206,206,206);
+background-size: 100% 100%;
+background-position: center;
+}
+.profile .seeAlso .row .col-4  .product_name{
+	position: absolute;
+	bottom: 6.4%;
+	left:9.2%; 
+	font: bold 100% "PT Sans Regular"  ;
+	color:black;
+	
+}
+.profile .seeAlso .row .col-4  .product_price{
+	height: 20px;
+	width: auto;
+	padding: 0px 8.5%;
+	background-color:rgb(231,5,5);
+	color:#fff;
+font-size:100%;
+	position: absolute;
+	bottom: 2.4%;
+	right:  4.2%;
+	text-align: center;
+    line-height: 20px;
+
+}
+.profile .seeAlso  p:nth-child(1){
+	position: absolute;
+	left:0;
+	bottom:300px;
+	text-align: center;
+	font: 500 160% "PT Sans Regular"  ;
+	width: 100%;
+	height: 10%;
+	padding-top:1.5%;
+	border-bottom:1px solid rgb(206,206,206);
+	
+}

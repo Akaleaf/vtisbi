@@ -1,0 +1,358 @@
+@font-face {
+	font-family:"PT Sans";
+	src: url(../fonts/2221.ttf);
+}
+body{
+	height: 100%;
+	background-color: #f6f6f6;
+	font-family:"PT Sans";
+	margin: 0;
+}
+.main-screen{
+  background: url(../includes/img/headerFon.png) no-repeat ; 
+   height:auto;
+  background-size:100% 100%;
+   min-width: 100%;
+   position: relative;
+   padding: 48px 30px 20% 30px;
+}
+
+.main-screen .headerwrapper{
+	width: 100%;
+	margin:0 auto;
+}
+
+.headerL1 {
+    background: rgba(198,14,14,1);
+    height: 60px;
+    max-width: 960px !important;
+    position: relative;
+}
+
+.headerL1  .logo{
+    width: 22%;
+    height: 80%;
+    margin-top: 0.5%;
+    margin-left: 5.8%;
+}
+.headerwrapper .headerL1 a{
+height: 100%;
+background-color: rgb(159,1,1);
+width: 170px;
+position: absolute;
+right: 0;
+}
+.headerL1 p{
+	position:absolute;
+	top:20px;
+	right: 55px;
+	color:white;
+	font: 500 17px "PT Sans"   ;
+}
+
+.headerL1 .user{
+	position:absolute;
+	right:14px;
+	top:12px;
+}
+.headerL2{
+	height:57px;
+	background: rgba(255,255,255,1);
+    max-width: 960px !important;
+	position: relative;
+}
+
+.headerL2   .merch{
+	width: 29%;
+    height: 65%;
+    margin:1% 0 0 5.8%;  
+}
+.headerwrapper .headerL2 .cart{
+	position:absolute;
+	top:10px;
+	right: 170px;
+	border:1.6px solid rgb(243,66,66);
+	padding:3px; 
+	}
+ .headerL2 p:nth-child(3) {
+	position:absolute;
+	top:10px;
+	right: 40px;
+	color:rgb(0,0,0);
+	font:condensed bold 18px "PT Sans"   ;
+}
+.headerL2 p:nth-child(4) {
+	position:absolute;
+	top:30px;
+	right: 40px;
+	color:rgb(0,0,0);
+	font:condensed bold 18px "PT Sans"  ;
+}
+.main-screen .carouselWrapper{
+	max-width:960px !important;
+	margin-top:22px !important;
+	padding: 0px !important;
+}
+
+/*          Контент             */
+ .contentwrapper{
+	min-width: 100%;
+   padding: 0px 30px 10px 30px;
+	position: relative; 
+	margin-top: -10%;
+}
+
+ .contentwrapper .content{
+	position: relative;
+	 margin:0 auto;	
+	 display: flex;
+    flex: 0 1 960px ;	
+    overflow: hidden;
+	max-width:  960px;
+	height: 960px;
+	border:2px solid rgb(206,206,206);;
+	
+}
+.content .search input:nth-child(1){
+	position: absolute;
+	left:28px;
+	width: 171px;
+	top:20px;
+	border:2px solid rgb(206,206,206);
+}
+.content .search input:focus  {
+	outline:none;
+}
+.content .search input:nth-child(2) {
+width: 26px;
+height: 30px;
+background: url(../includes/img/searchButton.png) no-repeat;
+background-size: 100%;
+background-position: center;
+position: absolute;
+top:20px;
+right: 20px;
+border:2px solid rgb(206,206,206);
+}
+
+.content .menu-wrapper{
+    flex: 1 0 245px;
+    height: inherit;
+    position: relative;
+
+}
+
+.content .search{
+ flex: 0 1 inherit ;
+ max-width: inherit;
+height: 65px;
+ position: absolute;
+left:0px;top:0px;right: 0;
+	border-right:2px solid rgb(210,210,210);
+	border-bottom:2px solid rgb(210,210,210);
+}
+
+.content .menu{
+	background:rgb(242,241,241);
+	position: absolute;
+	flex: 0 1 inherit ;
+	left:0px;right: 0;
+	top:65px;
+	max-width: inherit;
+	height: 895px;
+	border-right:2px solid rgb(210,210,210);
+	border-bottom:1px solid rgb(210,210,210);	
+}
+.content .menu p{
+	font: 900 15pt "Muriad Pro";
+	text-transform: uppercase;
+	padding:15px 0 20px 60px;
+}
+
+.menu ul li{
+	list-style-type: none;
+	border-bottom: 2px rgb(206,206,206) solid;
+	max-width:185px;
+}
+
+.menu ul li:hover{
+background:white;
+}
+.menu ul li a{
+	color:rgb(88,88,88);
+	text-decoration: none;
+	position: relative;
+	left: 13px;
+	font-size:  14pt;
+
+}
+.menu ul li:hover a{
+	color:rgb(192,10,29);
+   font-size:  20px;
+}
+.menu ul li:last-child a.exit{
+	color:rgb(192,10,29);
+	left: 23px;
+}
+.menu ul li a.exit::before {
+	content:"";
+	position: absolute;
+	background: url(../includes/img/LogOut.png) no-repeat;
+    left:-23px;top:3.3px;
+	width: 32px;
+	height: 32px;
+	background-size: 60%;
+}
+.menu ul li:hover a.exit::before {
+	background-size: 65%;
+}
+
+
+
+.pages {
+	position: absolute;
+	bottom:0px;
+	height:45px;
+ width:100%;
+	border-top:1px rgb(206,206,206) solid;
+}
+.pages ul{
+	display: flex;
+	height: 100%;
+	align-items:  center;
+	list-style-type:none;
+	justify-content: center;
+}
+.pages ul li{
+margin-right: 15px;
+}
+.pages ul li a {
+	color:black !important;
+}
+.pages ul li a.NONactive_link_page" {
+	color:blue;
+}
+.pages ul li a.active_link_page{
+	color:green;
+}
+
+.pages ul li a:hover{
+	text-decoration: none;
+}
+.products{
+	position: relative;
+	top: 0px;
+	right: 0;
+	height:inherit;
+   flex: 1 1 715px ;	
+
+
+	
+}
+.products .row{
+	position: relative;
+	margin:0px;
+	max-width: inherit;
+}
+
+.products .row .col-4{
+	border:1px rgb(206,206,206) solid;
+	height:305px;
+	padding:0;
+}
+.products .row .col-4 a {
+     width: inherit;
+    height: inherit;
+    position: absolute;
+  left: 0;
+    top: 0;
+  text-align: center;
+  line-height: 300px;
+text-decoration: none;
+}
+
+.products .row .col-4:hover{
+	border:2px rgb(192,10,29) solid;
+
+}
+.products .row .col-4  .product_image{
+	position: absolute ;
+	top:6%; 
+	left:9.2%; 
+  height: 73%;
+width: 82.5%;
+border:1px solid rgb(206,206,206);
+background-size: 100% 100%;
+background-position: center;
+}
+.products .row .col-4  .product_name{
+	position: absolute;
+	bottom: 6.4%;
+	left:9.2%; 
+	font: 600 100% "PT Sans Regular"  ;
+	color:black;
+	
+}
+.products .row .col-4  .product_price{
+	height: 20px;
+	width: auto;
+	padding: 0px 8.5%;
+	background-color:rgb(231,5,5);
+	color:#fff;
+font-size:100%;
+	position: absolute;
+	bottom: 2.4%;
+	right:  4.2%;
+	text-align: center;
+    line-height: 20px;
+	
+}
+.footer{
+	background: url(../includes//img/footerFon.png) no-repeat;
+     bottom:0px;
+      background-size:100% 100%;
+     height: 350px;
+     
+   min-width: 100%;
+   position: relative;
+   display: flex;
+   justify-content: center;
+  
+ 
+}
+.footer ul{	
+	position: absolute;
+	display: flex;
+    bottom:30%;
+    padding:0;
+  
+}
+.footer ul li{
+	margin-right:5vw;
+	list-style: none;
+	animation: 1s ease-in;
+}
+.footer ul li:hover {
+transform:scale(1.12);
+}
+.footer ul li:hover a {
+text-shadow:  0 0 10px grey;
+}
+
+
+
+.footer ul li a{
+	text-transform: uppercase;
+	font: bold 2vw "PT Sans"  ;
+	color:#fff; 
+	text-decoration: none; 
+}
+
+.footer ul li:nth-child(5) {
+	margin:-7px 22px 0 0;
+}
+.footer ul li:nth-child(6) {
+	margin:-10px 22px 0 0;
+}
+
+/*    Cart         */
